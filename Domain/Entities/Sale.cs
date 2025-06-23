@@ -11,9 +11,9 @@ public class Sale
 
     #region Relationships
     public string? SellerId { get; set; }
-    public Seller? Seller { get; set; } = null!;
+    public Seller Seller { get; set; } = null!;
     public string? RuleId { get; set; }
-    public Rule? Rule { get; set; } = null!;
+    public Rule Rule { get; set; } = null!;
 
     #endregion
 }
